@@ -8,7 +8,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 32784
+          "Port": 5108
         }
       ]
     },
@@ -20,7 +20,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 32782
+          "Port": 5109
         }
       ]
     }

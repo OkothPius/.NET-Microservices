@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService", "OrderServic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIGateway", "APIGateway\APIGateway.csproj", "{1E8BE7D6-A6C4-4CBF-B6A6-ED6376BA40D1}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{9020971D-C261-4C62-A1E5-7F0434164758}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1E8BE7D6-A6C4-4CBF-B6A6-ED6376BA40D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E8BE7D6-A6C4-4CBF-B6A6-ED6376BA40D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E8BE7D6-A6C4-4CBF-B6A6-ED6376BA40D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9020971D-C261-4C62-A1E5-7F0434164758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9020971D-C261-4C62-A1E5-7F0434164758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9020971D-C261-4C62-A1E5-7F0434164758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9020971D-C261-4C62-A1E5-7F0434164758}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

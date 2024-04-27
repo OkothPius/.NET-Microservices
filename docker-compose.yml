@@ -1,0 +1,27 @@
+version: '3.4'
+
+services:
+  apigateway:
+    image: apigateway:dev
+    build:
+      context: .
+      dockerfile: APIGateway/Dockerfile
+  
+  catalogservice:
+    image:  catalogservice:dev
+    build:
+        context: .
+        dockerfile: CatalogService/Dockerfile
+    # depends_on:
+    #    - sqldata
+
+  orderservice:
+    image:  orderservice:dev
+    build:
+        context: .
+        dockerfile: OrderService/Dockerfile
+    # depends_on:
+    #    - sqldata
+
+  sqldata:
+     image: mcr.microsoft.com/mssql/server:2019-latest
